@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+/* ---common shard styles--- */
+.btn-primary {
+  background-color: #e55473;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 17px 38px;
+  border: none;
+  border-radius: 8px;
+}
+.btn-primary:hover {
+  background-color: #f42955;
+  color: black;
+  box-shadow: 1px 2px 10px #e55473;
+  transition: calc(0.5s);
+}
+.primary-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.primary-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 25px 0;
+}
+.test-color {
+  color: #e55473;
+}
+
+/* ---banner section styles--- */
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-info {
+  width: 500px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.banner-img {
+  width: 450px;
+}
+/* --- Featured section related styles --- */
+.featured-container {
+  background-color: #fff;
+  padding: 100px 0;
+}
+.featured-info {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+.featured-images {
+  display: flex;
+  gap: 20px;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.featured-image {
+  text-align: center;
+}
+
+.featured-image-box1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 150px 150px 0px 0px;
+  padding: 80px 50px 0px 50px;
+}
+.featured-image-box2 {
+  background-color: rgba(5, 151, 160, 0.15);
+  border-radius: 150px 150px 0px 0px;
+  padding: 80px 50px 0px 50px;
+}
+.featured-image-box3 {
+  background-color: rgba(71, 125, 17, 0.15);
+  border-radius: 150px 150px 0px 0px;
+  padding: 80px 50px 0px 50px;
+}
+
+.featured-img {
+  width: 200px;
+  height: 260px;
+}
+.featured-img-info {
+  color: #272727;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+hr {
+  width: 125px;
+  margin: 0 auto;
+}
+
+/* ---box container styles--- */
+.box-container {
+  display: flex;
+  justify-content: cente;
+  align-items: center;
+  max-width: 950px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.box-child {
+  width: 600px;
+  text-align: center;
+  padding: 50px;
+}
+.box-child-info {
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 700;
+  margin-top: 10px;
+}
+.box-img {
+  width: 60px;
+}
+
+/* ---hot deal related styles--- */
+
+.hot-deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 50px 0;
+}
+.hot-deal-container-info {
+  width: 480px;
+  text-align: center;
+}
+.hot-deal-img {
+  width: 200px;
+}
+/* ---social section styles--- */
+.social-container {
+  background-color: #fff;
+  width: 950px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.social-info {
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+}
+.social-images {
+  display: flex;
+  gap: 20px;
+  width: 950px;
+  margin: 0 auto;
+}
+.social-img {
+  width: 222px;
+}
+.social-img:hover {
+  box-shadow: 1px 2px 10px #e55473;
+  transition: calc(0.4s);
+}
+
+/* ---subscrib related styles--- */
+
+.subscribe-container {
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/image/rectangle9.png");
+  background-position: center;
+  background-size: cover;
+  padding: 65px 0;
+  border-radius: 8px;
+  margin-bottom: 90px;
+}
+.subscribe-input {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+  padding: 18px 220px 16px 12px;
+  margin-right: 5px;
+}
+/* --- My section related styles --- */
+.my-section {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 50px;
+  margin-bottom: 95px;
+}
+.my-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.flowers {
+  text-align: center;
+}
+.flower-img {
+  width: 150px;
+}
+/* --- My section related End --- */
+
+/* ---contact section styles--- */
+
+.contact-section {
+  width: 950px;
+  background-image: url("/image/rectangle.png");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  text-align: center;
+}
+.contact-info {
+  width: 650px;
+  margin: 0 auto;
+}
+.contact-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+}
+.contact-description {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  margin: 20px 0;
+}
+
+/* ---footer related styles--- */
+.footer-area {
+  background-color: #111010;
+  text-align: center;
+  padding: 85px 0;
+}
+.footer-container {
+  width: 450px;
+  margin: 0 auto;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 900;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 15px 0;
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* ---footer end--- */
